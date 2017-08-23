@@ -1,2 +1,2 @@
 # Android-Practice
-Android Practice Sample using Android Studio 2.3.3
+Android Practice using Android Studio 2.3.3

@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity
         alertDialog.setMessage(key);
         alertDialog.setPositiveButton("OK", null);
         alertDialog.show();
+        System.out.println("key"+key);
 
         MapView mapView = new MapView(this);
         mapView.setDaumMapApiKey(API_KEY);
@@ -97,6 +98,7 @@ public class MainActivity extends AppCompatActivity
         alertDialog.setMessage("");//String.format("Double-Tap on (%f,%f)", mapPointGeo.latitude, mapPointGeo.longitude));
         alertDialog.setPositiveButton("OK", null);
         alertDialog.show();
+        System.out.println("resultCode"+resultCode);
     }
 
 
